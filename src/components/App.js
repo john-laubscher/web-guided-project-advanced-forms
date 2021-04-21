@@ -54,7 +54,10 @@ export default function App() {
       .then((res) => {
         setFriends(res.data);
       })
-      .catch((err) => {});
+      .catch((err) => {
+        console.log(err);
+        debugger;
+      });
   };
 
   const postNewFriend = (newFriend) => {
