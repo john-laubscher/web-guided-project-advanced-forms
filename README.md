@@ -30,6 +30,3 @@ In order to [POST] a new friend we must supply several required fields.
     "hobbies": ["coding", "reading", "hiking"]
   }
 ```
-
-axios
-.post(url, payload)
